@@ -56,7 +56,7 @@ management:
         enabled: true
 
 eureka.client.fetchRegistry: true
-spring.cloud.kubernetes.discovery.enabled=false
+spring.cloud.kubernetes.discovery.enabled: false
 
 
 ---
