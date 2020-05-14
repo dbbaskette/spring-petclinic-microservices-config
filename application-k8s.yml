@@ -1,4 +1,4 @@
-spring.cloud.kubernetes.discovery.enabled=true
+spring.cloud.kubernetes.discovery.enabled: true
 wavefront:
   application:
     name: pet-clinic-k8s
