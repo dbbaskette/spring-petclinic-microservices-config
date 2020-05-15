@@ -3,3 +3,8 @@ wavefront:
   application:
     name: pet-clinic-k8s
   freemium-account: true
+management:
+  metrics:
+    export:
+      wavefront:
+        enabled: false
