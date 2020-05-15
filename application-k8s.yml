@@ -1,5 +1,7 @@
 spring.cloud.kubernetes.discovery.enabled: true
 spring.cloud.discovery.enabled: false
+server:
+  port: 8080
 wavefront:
   application:
     name: pet-clinic-k8s
