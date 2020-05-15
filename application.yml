@@ -2,6 +2,7 @@
 
 # start services on random port by default  
 server.port: 0
+discovery.loadbalanced.enabled: true
 
 # embedded database init, supports mysql too trough the 'mysql' spring profile
 spring:
