@@ -1,4 +1,5 @@
 spring.cloud.kubernetes.discovery.enabled: true
+spring.cloud.discovery.enabled: false
 wavefront:
   application:
     name: pet-clinic-k8s
