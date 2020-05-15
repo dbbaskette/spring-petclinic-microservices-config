@@ -7,13 +7,6 @@ spring:
       ribbon:
         enabled: false
     gateway:
-      x-forwarded:
-        enabled: true
-        for-enabled: true
-        proto-enabled: true
-        host-append: false
-        port-append: false
-        proto-append: false
       routes:
         - id: vets-service
           uri: http://vets-service.default.svc.cluster.local:8080
