@@ -5,7 +5,7 @@ server:
 wavefront:
   application:
     name: pet-clinic-k8s
-  freemium-account: true
+  freemium-account: false
 management:
   metrics:
     export:
