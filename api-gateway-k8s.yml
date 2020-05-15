@@ -1,6 +1,5 @@
 customers-service-id: http://customers-service.default.svc.cluster.local:8080
 vists-service-id: http://vists-service.default.svc.cluster.local:8080
-discovery.loadbalanced.enabled: true
 
 spring:
   cloud:
