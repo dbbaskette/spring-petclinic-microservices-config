@@ -33,9 +33,11 @@ spring:
         - id: show-me-google
           uri: https://www.google.com
           predicates:
-          - Path=/red/{segment}
+            - Path=/api/red/{segment}
           filters:
-          - AddRequestHeader=X-Request-Red, Blue-{segment}
+            - AddRequestHeader=X-Request-Red, Blue-{segment}
+            - StripPrefix=2
+
 
 
 server:
