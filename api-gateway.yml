@@ -30,6 +30,13 @@ spring:
             - Path=/api/customer/**
           filters:
             - StripPrefix=2
+        - id: show-me-google
+          uri: https://www.google.com
+          predicates:
+          - Path=/red/{segment}
+          filters:
+          - AddRequestHeader=X-Request-Red, Blue-{segment}
+
 
 server:
   port: 8080
