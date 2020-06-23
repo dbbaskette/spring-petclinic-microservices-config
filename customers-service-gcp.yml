@@ -7,3 +7,4 @@ spring:
     gcp:
       sql:
         database-name: service_instance_db
+        instance-connection-name: pgtm-avetter:us-central1:customers-db-gcp
