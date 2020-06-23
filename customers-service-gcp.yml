@@ -1,8 +1,8 @@
 spring:
-  datasource:
-    url: ${vcap.services.customers-db-gcp.credentials.jdbcUrl}&queryInterceptors=brave.mysql8.TracingQueryInterceptor&exceptionInterceptors=brave.mysql8.TracingExceptionInterceptor&zipkinServiceName=customers-db-gcp
-    username: ${vcap.services.customers-db-gcp.credentials.username:root}
-    password: ${vcap.services.customers-db-gcp.credentials.password:petclinic}
+  #datasource:
+  #  url: ${vcap.services.customers-db-gcp.credentials.jdbcUrl}&queryInterceptors=brave.mysql8.TracingQueryInterceptor&exceptionInterceptors=brave.mysql8.TracingExceptionInterceptor&zipkinServiceName=customers-db-gcp
+  #  username: ${vcap.services.customers-db-gcp.credentials.username:root}
+  #  password: ${vcap.services.customers-db-gcp.credentials.password:petclinic}
   cloud:
     gcp:
       sql:
